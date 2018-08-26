@@ -3,4 +3,5 @@ project(TestStructures)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TestStructures main.cpp)
+add_executable(TestStructures main.cpp Test.h HashSet.h TreeSet.h Vector.h
+        LinkedList.h)
